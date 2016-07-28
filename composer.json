@@ -8,7 +8,10 @@
     "require": {
 	    "composer/installers": "v1.0.6"
     },
-    "license": "Apache-2.0",
+    "license": [
+    	"Apache-2.0",
+    	"GPL-2.0+"
+    ],
     "authors": [
         {
             "name": "Véronique Bellamy",
@@ -20,6 +23,18 @@
 	        "name": "Arnaud Froment",
 	        "homepage": "http://sonsofskadi.net/",
 	        "role": "Original developer"
+        },
+        {
+	        "name": "Jeff Minard",
+	        "email": "jeff-js@creatimation.net",
+	        "homepage": "http://www.creatimation.net",
+	        "role": "Developer of parent project"
+        },
+        {
+	        "name": "Jonas Rabbe",
+	        "email": "jonas@rabbe.com",
+	        "homepage": "http://www.jonas.rabbe.com",
+	        "role": "Developer of parent project"
         }
     ]
 }
