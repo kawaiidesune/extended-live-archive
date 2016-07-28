@@ -42,7 +42,7 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li><a href="#">Intro</a></li>
-							<li class="dropdown active">
+							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
 								<ul class="dropdown-menu">
 									<li><a href="#">Installation</a></li>
@@ -71,36 +71,8 @@
 	</div> <!-- end navbar-full -->
     <div class="main">
         <div class="container">
-	        <h1 class="text-center">The Original Readme <small class="subtitle">Seriously! It came with the plugin!</small></h1>
-			<p class="lead">The Extended Live Archive plugin is one selfcontained bundle called af-extended-live-archive, which should be put into the plugin folder to yield the following structure:</p>
-<pre>
-wp-content/
-		\_...
-		\_ plugins/
-	   		\_...
-	   		\_ af-extended-live-archive/
-	   		    \_ elalicenses.txt
-				\_ af-extended-live-archive.php
-				\_ af-extended-live-archive-include.php
-				\_ af-extended-live-archive-options.php
-	   			\_ includes/
-					\_ af-extended-live-archive.js
-					\_ af-ela.php
-					\_ af-ela-style.css
-				\_ cache/
-				    \_ empty directory used to store the cache files
-</pre>
-			<p>The plugin provides a single template function called <kbd>af_ela_super_archive()</kbd>. It writes some javascript information in the page it's called in and initializes the whole thing. Some parameter can be passed to the template function.</p>
-			<p><strong>However, it is STRONGLY recommended that one uses the option panel the plugin is adding to the admin pages to configure ELA.</strong></p>
-			<p>Doing so, all one has to do to display the Extended Live Archive is to add a <kbd>&lt;?php af_ela_super_archive(); ?&gt;</kbd> call wherever one wants the stuff to show up.</p>
-			<p>Note that if you are using K2, beta one r96 or after, the archives page is already doing that for you.</p>
-			<p>To install the plugin,</p>
-			<ol>
-				<li>Upload the af-extended-archive directory and its content to your wp-content/plugins/ directory.</li>
-				<li>Make sure the cache directory permission are set to 0777 (refer to your webhost knowledge-base if need be)</li>
-				<li>Then, visit the option-&gt;Ext. Live Archive page once to initialize it.</li>
-			</ol>
-			<p>The plugin HomePage can be found somewhere in <a href="http://www.sonsofskadi.net/extended-live-archive/">SonsOfSkadi.net</a> and the support forum is over at <a href="http://www.flickr.com/groups/ela-support/">Flickr</a>.</p>
+	        <h1 class="text-center">Extended Live Archive <small class="subtitle">Coming soon to WordPress 4.x!</small></h1>
+			<p class="lead">At this time, I am currently recoding the Extended Live Archive plugin to work with WordPress 4.x. You can check out the project and follow its progress on Github.</p>
         </div>
     </div>
 
