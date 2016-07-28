@@ -1,0 +1,25 @@
+{
+    "name": "kawaiidesune/extended-live-archive",
+    "description": "This is a modern adaptation of the Extended Live Archive WordPress plugin.",
+    "version": "0.10beta",
+    "type": "wordpress-plugin",
+    "homepage": "http://veroniquebellamy.fr/en/resources/wordpress-plugins/extended-live-archive",
+    "keywords": ["wordpress", "plugin", "archives"],
+    "require": {
+	    "composer/installers": "v1.0.6"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Véronique Bellamy",
+            "email": "v@vero.moe",
+            "homepage": "http://veroniquebellamy.fr/",
+            "role": "Developer"
+        },
+        {
+	        "name": "Arnaud Froment",
+	        "homepage": "http://sonsofskadi.net/",
+	        "role": "Original developer"
+        }
+    ]
+}
